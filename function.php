@@ -7,11 +7,12 @@ function wm_theme_styles() {
 
 
 }
+
 add_action( 'wp_enqueue_scripts', 'wm_theme_styles' );
 
 function wm_theme_js() {
 
-	wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), '', false);
+	wp_enqueue_script( 'main.js', get_template_directory_uri() . '/main.js', array('jquery'), ' ' , false);
 
 }
 
