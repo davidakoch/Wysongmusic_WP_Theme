@@ -5,8 +5,11 @@
 	<meta charset="utf-8">
 	<title><?php wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" type="text/css" href="http://localhost:8888/wordpress/wp-content/themes/Wysong_Music_Site/style.css"/>-->
 
 	<?php wp_head(); ?>
+
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 
 </head>
 
@@ -15,7 +18,7 @@
 		<header class="main_header">
 			<nav>
 				<ul class="main_nav">
-						<a>Home</a>
+						<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 					</li>
 					<li>
 						<a href="bio.html">Bio</a>
@@ -42,7 +45,7 @@
 			<nav>
 				<ul class="menu_700px">
 					<li class="js_click_banner">CLOSE</li>
-					<li><a href="index.html">HOME</a></li>
+					<li><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></li>
 					<li><a href="bio.html"BIO</a></li>
 					<li><a href="musicOriginal.html">LISTEN/ORIGINALS</a></li>
 					<li><a href="musicTvfilm.html">LISTEN/TV + FILM</a></li>

@@ -2,6 +2,7 @@
 
 function wpwm_theme_styles() {
 
+	wp_enqueue_style( 'font_awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'googlefont_css', 'https://fonts.googleapis.com/css?family=Permanent+Marker' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 
