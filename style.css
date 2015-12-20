@@ -132,7 +132,7 @@ ul.menu_700px {
 	height: 25em;
 	margin-bottom: -15px;
 	overflow: scroll;
-	background-image: url("../images/andrew_bio.jpg");
+	background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2015/12/andrew_bio.jpg");
 }
 
 .index_image_bio p {
