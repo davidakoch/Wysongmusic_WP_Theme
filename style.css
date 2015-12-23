@@ -135,9 +135,11 @@ ul.menu_700px {
 	background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2015/12/andrew_bio.jpg");
 }
 
-.index_image_bio p {
+.image_bio_text {
 	color: black;
 	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px; 
 	margin-left: 500px;
 	width: 49%;
 	font-size: 17px;

@@ -9,7 +9,6 @@
 				<p>Proudly Powered by WordPress</p>
 			</div>
 			<div class="footer_text_right">
-				<p>Wysong Music Theme</p>
 				<p>@Copyright <?php echo date('Y'); ?></p>
 				<p>David A. Koch</p>
 			</div>
