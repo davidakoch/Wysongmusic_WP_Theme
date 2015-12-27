@@ -15,6 +15,20 @@
 	<div class="container">
 		<header class="main_header">
 			<nav>
+
+			<?php   
+
+				$defaults = array(
+				   'container' => false,
+				   'theme_location' => 'primary-menu',
+				   'menu_class'	=> 'main_nav'	
+             );
+
+				wp_nav_menu( $defaults );
+
+			?>
+
+<!--
 				<ul class="main_nav">
 					<li>
 						<a href="home.html">Home</a>
@@ -22,9 +36,9 @@
 					<li>
 						<a href="bio.html">Bio</a>
 					</li>
-					<li>
+					<li> 
 						<a>Listen</a>
-							<ul class="sub_music_menu">
+							<ul class="sub-menu">
 								<li><a href="musicOriginal.html">Originals</a></li>
 								<li><a href="musicTvfilm.html">TV/Film</a></li>
 							</ul>
@@ -32,6 +46,7 @@
 					<li><a href="credits.html">Credits</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
+-->
 			</nav>
 
 				<!-- Creates the banner heading at 700px --> 

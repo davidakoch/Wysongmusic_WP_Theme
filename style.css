@@ -68,7 +68,7 @@ li.active {
 
 /*css for submusic menu*/
 
-ul.sub_music_menu {
+ul.sub-menu {
 	display: none; 
 	position: absolute;
 	padding: 0px;
@@ -76,18 +76,18 @@ ul.sub_music_menu {
 }
 
 
-ul.sub_music_menu li {
+ul.sub-menu li {
 	display: block;
 	text-align: left;
 	background-color: grey;
 }
 
-ul.sub_music_menu li:hover {
+ul.sub-menu li:hover {
 	background-color: #dae0e6;
 }
 
 
-ul.main_nav li:hover ul.sub_music_menu {
+ul.main_nav li:hover ul.sub-menu {
 	display: block;
 }
 

@@ -18,6 +18,8 @@ jQuery(document).ready(function($) {
 			$('.main_header').css("height", 225);
 		});
 
+
+
 		//makes banner 700px disappear when you stretch the screen beyond 700px
 
 		$(window).on('resize', function(){
