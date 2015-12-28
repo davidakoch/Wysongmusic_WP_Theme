@@ -68,28 +68,27 @@ li.active {
 
 /*css for submusic menu*/
 
-ul.sub-menu {
+ul.main_nav ul {
 	display: none; 
 	position: absolute;
 	padding: 0px;
 	margin-left: -20px;
 }
 
+ul.main_nav li:hover ul.sub-menu {
+	display: block;
+}
 
-ul.sub-menu li {
+.main_nav li li {
 	display: block;
 	text-align: left;
 	background-color: grey;
 }
 
-ul.sub-menu li:hover {
+.main_nav li li:hover {
 	background-color: #dae0e6;
 }
 
-
-ul.main_nav li:hover ul.sub-menu {
-	display: block;
-}
 
 /*css for 700px menu and banner*/
 

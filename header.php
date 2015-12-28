@@ -27,8 +27,8 @@
 				wp_nav_menu( $defaults );
 
 			?>
+			<!--	
 
-<!--
 				<ul class="main_nav">
 					<li>
 						<a href="home.html">Home</a>
@@ -38,7 +38,7 @@
 					</li>
 					<li> 
 						<a>Listen</a>
-							<ul class="sub-menu">
+							<ul class>
 								<li><a href="musicOriginal.html">Originals</a></li>
 								<li><a href="musicTvfilm.html">TV/Film</a></li>
 							</ul>
@@ -46,8 +46,9 @@
 					<li><a href="credits.html">Credits</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
--->
+			-->	
 			</nav>
+
 
 				<!-- Creates the banner heading at 700px --> 
 			<nav>	
