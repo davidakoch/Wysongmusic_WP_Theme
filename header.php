@@ -58,15 +58,30 @@
 			</nav>
 				<!--creates the menu at 700px -->
 			<nav>
+
+			<?php
+
+				$defaults = array(
+					'container' => false,
+					'theme_location' => 'secondary-menu',
+					'menu_class' => 'menu_700px'
+				);
+
+				wp_nav_menu( $defaults );
+
+			?>
+
+			<!--
 				<ul class="menu_700px">
 					<li class="js_click_banner">CLOSE</li>
-					<li><a href="home.html">Home</a></li>
+					<li><a href="home.html">HOME</a></li>
 					<li><a href="bio.html">BIO</a></li>
 					<li><a href="musicOriginal.html">LISTEN/ORIGINALS</a></li>
 					<li><a href="musicTvfilm.html">LISTEN/TV + FILM</a></li>
 					<li><a href="credits.html">CREDITS</a></li>
 					<li><a href="contact.html">CONTACT</a></li>
 				</ul>
+			-->
 			</nav>
 
 
