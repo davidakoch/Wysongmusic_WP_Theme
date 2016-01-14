@@ -62,7 +62,8 @@ ul.main_nav a {
 	text-decoration: none; 
 }
 
-li.active {
+.current-menu-item,
+.current-menu-parent {
 	border-bottom: 1px solid black; 
 }
 
